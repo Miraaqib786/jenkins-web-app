@@ -4,9 +4,9 @@ function toggleButton() {
 
     if (button.innerHTML === "Click Me") {
         button.innerHTML = "Unclick";
-        message.innerHTML = "Button has been clicked!";
+        message.innerHTML = "Welcome to Jenkins world - Jenkins got Thrilled! ";
     } else {
         button.innerHTML = "Click Me";
-        message.innerHTML = "Button is back to original state.";
+        message.innerHTML = "Thanks for Visiting Jenkins - Jenkins got Sad! ";
     }
 }

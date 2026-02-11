@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/Miraaqib786/jenkins-web-app.git'
-            }
-        }
-
         stage('Build') {
             steps {
                 echo "Static website - No build required"
